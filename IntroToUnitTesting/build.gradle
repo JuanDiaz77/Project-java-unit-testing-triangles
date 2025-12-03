@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'jacoco'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)   // Usa tu JDK actual
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+application {
+    mainClass = 'Demo'
+}
+
+run {
+    standardInput = System.in
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// ----------------------------
+// 📌 CONFIGURACIÓN DE JACOCO
+// ----------------------------
+jacocoTestReport {
+    dependsOn test     // primero corre test, luego genera el reporte
+    reports {
+        xml.required = true
+        csv.required = false
+        html.outputLocation = layout.buildDirectory.dir('jacocoHtml')
+    }
+}

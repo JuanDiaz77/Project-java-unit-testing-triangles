@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-12-03T17:47:04" hostname="PT33BOG02SO009" time="0.088">
+  <properties/>
+  <testcase name="testValidTriangle()" classname="DemoTest" time="0.044"/>
+  <testcase name="testPermutationValidTriangle()" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsoscelesTriangle()" classname="DemoTest" time="0.002"/>
+  <testcase name="testPermutationInvalidTriangle()" classname="DemoTest" time="0.004"/>
+  <testcase name="testInvalidTriangle()" classname="DemoTest" time="0.002"/>
+  <testcase name="testOneNegativeSide()" classname="DemoTest" time="0.002"/>
+  <testcase name="testLargeNumbers()" classname="DemoTest" time="0.001"/>
+  <testcase name="testEquilateralTriangle()" classname="DemoTest" time="0.004"/>
+  <testcase name="testNegativeSides()" classname="DemoTest" time="0.002"/>
+  <testcase name="testDegenerateTriangleEqualSides()" classname="DemoTest" time="0.002"/>
+  <testcase name="testOneSideTooLarge()" classname="DemoTest" time="0.001"/>
+  <testcase name="testZeroSideCase1()" classname="DemoTest" time="0.001"/>
+  <testcase name="testZeroSideCase2()" classname="DemoTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
